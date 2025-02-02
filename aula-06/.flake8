@@ -1,0 +1,4 @@
+[flake8]
+exclude = .venv
+max-line-height = 88
+extend-ignore = E203,E701
