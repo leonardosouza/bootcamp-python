@@ -1,0 +1,30 @@
+[project]
+name = "aula-07"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Leonardo Souza",email = "leonardodisouza@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "flake8 (>=7.1.1,<8.0.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "isort (>=6.0.0,<7.0.0)",
+    "taskipy (>=1.14.1,<2.0.0)",
+    "pre-commit (>=4.1.0,<5.0.0)"
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.taskipy.tasks]
+format = """
+isort src/.
+black src
+flake8 src
+"""
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
