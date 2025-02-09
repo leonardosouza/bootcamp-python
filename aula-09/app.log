@@ -1,0 +1,16 @@
+2025-02-04 23:19:50.197 | ERROR    | __main__:soma:15 - falha no calculo
+2025-02-04 23:20:16.765 | ERROR    | __main__:soma:15 - falha no calculo
+2025-02-04 23:20:16.765 | INFO     | __main__:<module>:17 - None
+2025-02-04 23:20:16.765 | INFO     | __main__:<module>:18 - 5
+2025-02-04T23:28:59.287135-0300 ERROR falha no calculo main.py
+2025-02-04T23:28:59.287247-0300 INFO None main.py
+2025-02-04T23:28:59.287293-0300 INFO 5 main.py
+2025-02-04T23:48:39.193281-0300 ERROR falha no calculo log_to_sentry.py
+2025-02-07T22:47:50.176825-0300 INFO Funcion 'soma called' log_decorator.py
+2025-02-07T22:49:23.833763-0300 INFO Function 'soma' called with '(3, 4)' log_decorator.py
+2025-02-07T22:50:31.935286-0300 INFO Function 'soma' called with parameters '(3, 4)' log_decorator.py
+2025-02-07T22:51:20.324723-0300 ERROR falha no calculo log_to_sentry.py
+2025-02-07T22:51:26.894615-0300 INFO Function 'soma' called with parameters '(3, 4)' and '{}' log_decorator.py
+2025-02-07T22:51:37.943054-0300 INFO Function 'soma' called with parameters '(2, 4)' and '{}' log_decorator.py
+2025-02-07T22:51:54.004073-0300 INFO Function 'soma' called with parameters '(2, 4)' and '{}' log_decorator.py
+2025-02-08T21:31:43.230422-0300 ERROR falha no calculo log_to_sentry.py
