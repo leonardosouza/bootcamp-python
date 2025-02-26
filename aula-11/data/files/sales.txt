@@ -1,0 +1,5 @@
+produto,preco,quant,entregue
+videogame,3000,5,True
+wifi router,500,10,True
+webcam,650,10,True
+monitor,1990,10,False

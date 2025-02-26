@@ -1,0 +1,5 @@
+produto,preco,quant,entregue
+celular,3000,5,True
+headphone,300,10,False
+mouse,150,10,True
+keyboard,199,10,False
